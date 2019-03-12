@@ -4,13 +4,48 @@
 	margin: auto;
 
 	.text-container {
-		width: 90%;
-		max-width: 840px;
-		margin-top: 1em;
-		margin-bottom: 2em;
+		width: 100%;
+		display: flex;
+		flex-flow: row wrap;
 
 		h1 {
 			font-size: 2.5em;
+			margin-top: 1em;
+			margin-bottom: 2em;
+			width: 840px;
+			line-height: 100px;
+
+			a {
+				color: $warmPeach;
+
+				&:hover {
+					color: $summerBlue;
+					transition: color .4s ease;
+				}
+			}
+		}
+	}
+
+	.work {
+		width: 100%;
+		max-width: 840px;
+
+		h3 {
+			margin-bottom: 20px;
+		}
+
+		.company-image {
+
+			img {
+				max-width: 300px;
+				padding: 1.4em;
+				background-color: $warmPeach;
+
+				&:hover {
+					background-color: $summerBlue;
+					transition: background-color .4s ease;
+				}
+			}
 		}
 	}
 }
