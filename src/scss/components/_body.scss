@@ -32,18 +32,19 @@
 
 		h3 {
 			margin-bottom: 20px;
+            font-size: 1.3em;
 		}
 
 		.company-image {
-
 			img {
 				max-width: 300px;
 				padding: 1.4em;
 				background-color: $warmPeach;
+                box-shadow: 20px 22px 72px -17px rgba(0,0,0,0.5);
+                transition: background-color .4s ease-in-out;
 
 				&:hover {
 					background-color: $summerBlue;
-					transition: background-color .4s ease;
 				}
 			}
 		}
