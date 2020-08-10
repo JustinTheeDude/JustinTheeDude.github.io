@@ -1,0 +1,50 @@
+.header-text {
+    font-family: "Roboto", sans-serif;
+    font-size: 3rem;
+}
+
+p,
+a {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    margin: 20px 0;
+    padding-bottom: 20px;
+    line-height: 1.5;
+}
+
+body {
+    padding: 50px;
+    width: 80%;
+    max-width: 700px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    transition: opacity 0.3s ease-in;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+#apts {
+    color: #d30000;
+}
+
+#github {
+    color: #5c6bc0;
+}
+
+#email {
+    color: #ec407a;
+}
+
+#footer a {
+    margin: 0 5px;
+}
+
+#footer a i {
+    color: #000;
+    font-size: 30px;
+}
